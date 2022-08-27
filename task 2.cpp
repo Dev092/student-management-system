@@ -118,6 +118,12 @@ int main()
 
 void get_data(int i)
 {
+    cout<<"-------------------------------------------------------"<<endl;
+    cout<<"-------------------------------------------------------"<<endl;
+    cout<<"Enter the student "<<i+1<< " data :"<<endl;
+    cout<<"-------------------------------------------------------"<<endl;
+
+
   cout<<"Enter student roll number in  format(1XXX): ";
   cin>>rec[i].rollno;
   cout<<"Enter student name: ";
